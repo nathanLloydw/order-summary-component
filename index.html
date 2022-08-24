@@ -12,7 +12,29 @@
 
     <script src="https://kit.fontawesome.com/29f99118dd.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <h1 class="text-center w-full">TAILWIND</h1>
+<body class="bg-desktop bg-pale-blue bg-no-repeat bg-contain flex justify-center items-center">
+    <main class="bg-white w-[87%] lg:w-[31%] h-[78%] rounded-3xl overflow-hidden flex flex-col shadow-xl">
+        <img src="public/images/illustration-hero.svg" alt="hero" class="w-full h-auto max-h-[35%] object-cover">
+        <div class="h-full py-8 px-6 xl:p-12 text-center flex flex-col justify-between">
+            <h1 class="text-2xl lg:text-3xl font-extrabold text-dark-blue">Order Summary</h1>
+            <p class="text-sm lg:text-base text-desaturated-blue leading-6 px-6 lg:px-0">
+                You can now listen to millions of songs,
+                audiobooks, and podcasts on any device
+                anywhere you like!
+            </p>
+            <div class="flex justify-between bg-very-pale-blue rounded-xl p-4 xl:p-6 text-sm lg:text-base">
+                <div class="flex">
+                    <img src="public/images/icon-music.svg" alt="icon" class="pr-4 lg:pr-6">
+                    <div>
+                        <p class="font-extrabold text-dark-blue">Annual Plan</p>
+                        <p class="text-desaturated-blue">$59.99/year</p>
+                    </div>
+                </div>
+                <button class="text-sm underline hover:no-underline text-bright-blue hover:opacity-75 font-bold">Change</button>
+            </div>
+            <button class="bg-bright-blue py-3 rounded-xl text-white font-semibold primary-box-shadow hover:opacity-75">Proceed to Payment</button>
+            <a href="#" class="text-desaturated-blue font-bold hover:text-black">Cancel Order</a>
+        </div>
+    </main>
 </body>
 </html>
